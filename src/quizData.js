@@ -5,6 +5,11 @@ const quizData = [
         "answer": "Artificial Intelligence"
       },
       {
+        question: "Do you know who founded BitHubAi company?",
+          options: ["Omid Panahi","Mark B. Fisher", "Satoshi Nakamoto", "Jeff Bozos"],
+          answer: "Omid Panahi" 
+        },
+      {
         "question": "What is the goal of AI?",
         "options": ["To understand human emotions", "To mimic human intelligence", "To build rockets", "To grow vegetables"],
         "answer": "To mimic human intelligence"
@@ -39,11 +44,7 @@ const quizData = [
         options: ["Amazon", "Google", "Apple", "Microsoft"],
         answer: "Amazon"
       },
-    {
-    question: "Do you know who founded BitHubAi company?",
-      options: ["Mark B. Fisher", "Omid Panahi", "Satoshi Nakamoto", "Jeff Bozos"],
-      answer: "Omid Panahi" 
-    },
+   
     {
         "question": "What do we call a computer program that learns from data?",
         "options": ["AI", "ML", "DL", "RL"],
