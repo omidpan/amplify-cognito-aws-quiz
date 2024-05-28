@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.company-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.logo-container {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}

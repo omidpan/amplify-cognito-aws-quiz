@@ -17,17 +17,23 @@ import awsExports from './aws-exports';
 
 // Imports the Quiz component from Quiz.js for use in this file.
 import Quiz from './Quiz';
-
+import Logo from './logo';
 // Configures the Amplify library with the settings from aws-exports.js, which includes all the AWS service configurations for this project.
 Amplify.configure(awsExports);
 
 function App() {
   return (
+    <React.Fragment>
+ <div className='logo-container'>
+ {/* BitHubAi Logo */}
+ <Logo className='company-logo'/>
+    </div>
     <div className="App">
       <Authenticator>
         {({ signOut }) => (
           <main>
             <header className='App-header'>
+             
               {/* Quiz Component */}
               <Quiz />
               {/* Sign Out Button */}
@@ -47,6 +53,8 @@ function App() {
         )}
       </Authenticator>
     </div>
+    </React.Fragment>
+   
   );
 }
 

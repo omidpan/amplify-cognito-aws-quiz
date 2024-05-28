@@ -28,7 +28,7 @@ function Quiz() {
       } else {
         setShowScore(true);
       }
-    }, 1000); // Adjust time as needed
+    }, 500); // Adjust time as needed
   };
 
   return (
